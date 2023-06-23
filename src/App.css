@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.grid
+{
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    
+}
+
+.grid > div 
+{
+  background-origin: padding-box ;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(219, 219, 219, 0.5);
+  margin: 8px;
+}
